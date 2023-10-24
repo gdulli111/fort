@@ -23,13 +23,6 @@ classifiers=[
 setup(
     name="pyfort",
     version=VERSION,
-    author="Atharva Bhandvalkar",
-    author_email="<atharv.bhandvalkar@gmail.com>",
-    license='MIT',
-    url='https://github.com/a-tharva/fort',
-    description=DESCRIPTION,
-    long_description=long_description + '\n\n' + open('CHANGELOG.txt').read(),
-    long_description_content_type='text/markdown',
     packages=find_packages(),
     install_requires=['colorama', 'termcolor', 'cryptography'],
     keywords=['python'],
